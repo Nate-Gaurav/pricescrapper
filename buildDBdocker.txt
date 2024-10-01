@@ -1,0 +1,1 @@
+docker run --env  MONGO_INITDB_ROOT_USERNAME=user --env  MONGO_INITDB_ROOT_PASSWORD=pass -p 27017:27017 --name buliddb mongo:8.0.0-rc11-jammy
